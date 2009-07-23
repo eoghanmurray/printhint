@@ -1,0 +1,234 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version:0.09:$
+
+[PLUGINS]
+/usr/lib/xine-plugin/xineplugin.so:$
+:$
+1223915194000:1:5:$
+Xine Plugin version 1.0.2, (c) <a href=http://www.xinehq.de>The Xine Project</a>.<br>Windows Media Player / RealPlayer / QuickTime compatible.:$
+Xine Plugin:$
+99
+0:application/annodex: Annodex media: anx:$
+1:application/x-annodex: Annodex media: anx:$
+2:audio/annodex: Annodex audio: axa:$
+3:audio/x-annodex: Annodex audio: axa:$
+4:video/annodex: Annodex video: axv:$
+5:video/x-annodex: Annodex video: axv:$
+6:audio/x-8svx: IFF-8SVX Audio: 8svx:$
+7:audio/8svx: IFF-8SVX Audio: 8svx:$
+8:audio/x-16sv: IFF-16SV Audio: 16sv:$
+9:audio/168sv: IFF-16SV Audio: 16sv:$
+10:image/x-ilbm: IFF-ILBM Picture: ilbm:$
+11:image/ilbm: IFF-ILBM Picture: ilbm:$
+12:video/x-anim: IFF-ANIM Video: anim:$
+13:video/anim: IFF-ANIM Video: anim:$
+14:video/x-ms-asf: ASF stream: asf:$
+15:video/x-ms-wmv: Windows Media Video: wmv:$
+16:audio/x-ms-wma: Windows Media Audio: wma:$
+17:application/vnd.ms-asf: ASF stream: asf:$
+18:application/x-mplayer2: mplayer2: asf,asx,asp:$
+19:video/x-ms-asf-plugin: mms animation: asf,asx,asp:$
+20:video/x-ms-wvx: wmv metafile: wvx:$
+21:video/x-ms-wax: wma metafile: wva:$
+22:video/quicktime: Quicktime animation: mov,qt:$
+23:video/x-quicktime: Quicktime animation: mov,qt:$
+24:audio/x-m4a: MPEG-4 audio: m4a,m4b:$
+25:application/x-quicktimeplayer: Quicktime list: qtl:$
+26:video/mp4: MPEG-4 video: mp4,mpg4:$
+27:audio/mp4: MPEG-4 audio: mp4,mpg4:$
+28:application/ogg: Ogg Stream: ogx:$
+29:application/x-ogg: Ogg Stream: ogx:$
+30:application/x-ogm: Ogg Stream: ogx:$
+31:application/x-ogm-audio: Ogg Audio: oga:$
+32:application/x-ogm-video: Ogg Video: ogv:$
+33:audio/ogg: Ogg Audio: oga:$
+34:audio/x-ogg: Ogg Audio: oga:$
+35:video/ogg: Ogg Video: ogv:$
+36:video/x-ogg: Ogg Video: ogv:$
+37:video/mkv: matroska: mkv:$
+38:video/x-matroska: matroska: mkv:$
+39:image/png: PNG image: png:$
+40:image/x-png: PNG image: png:$
+41:video/mng: MNG animation: mng:$
+42:video/x-mng: MNG animation: mng:$
+43:video/x-flv: Flash video: flv:$
+44:video/flv: Flash video: flv:$
+45:application/x-flash-video: Flash video: flv:$
+46:video/x-flic: Autodesk FLIC files: fli,flc:$
+47:audio/x-aiff: AIFF audio: aif, aiff:$
+48:audio/aiff: AIFF audio: aif, aiff:$
+49:audio/x-pn-aiff: AIFF audio: aif, aiff:$
+50:audio/x-flac: FLAC Audio: flac:$
+51:audio/flac: FLAC Audio: flac:$
+52:audio/x-realaudio: RealAudio File: ra:$
+53:audio/basic: ULAW: snd,au:$
+54:audio/x-basic: ULAW: snd,au:$
+55:audio/x-pn-au: ULAW: snd,au:$
+56:audio/x-mod: SoundTracker/NoiseTracker/ProTracker Module: mod:$
+57:audio/mod: SoundTracker/NoiseTracker/ProTracker Module: mod:$
+58:audio/it: ImpulseTracker Module: it:$
+59:audio/x-it: ImpulseTracker Module: it:$
+60:audio/x-stm: ScreamTracker 2 Module: stm:$
+61:audio/x-s3m: ScreamTracker 3 Module: s3m:$
+62:audio/s3m: ScreamTracker 3 Module: s3m:$
+63:application/playerpro: 669 Tracker Module: 669:$
+64:application/adrift: ADRIFT Module File: amf:$
+65:audio/med: Amiga MED/OctaMED Tracker Module Sound File: med:$
+66:audio/x-amf: ADRIFT Module File: amf:$
+67:audio/x-xm: FastTracker II Audio: xm:$
+68:audio/xm: FastTracker II Audio: xm:$
+69:audio/x-pn-realaudio: Real Media file: ra, rm, ram:$
+70:audio/x-pn-realaudio-plugin: Real Media plugin file: rpm:$
+71:audio/x-real-audio: Real Media file: ra, rm, ram:$
+72:application/vnd.rn-realmedia: Real Media file: ra, rm, ram:$
+73:video/msvideo: AVI video: avi:$
+74:video/x-msvideo: AVI video: avi:$
+75:video/mpeg: MPEG animation: mpeg, mpg, mpe:$
+76:video/x-mpeg: MPEG animation: mpeg, mpg, mpe:$
+77:audio/x-wav: WAV audio: wav:$
+78:audio/wav: WAV audio: wav:$
+79:audio/x-pn-wav: WAV audio: wav:$
+80:audio/x-pn-windows-acm: WAV audio: wav:$
+81:audio/musepack: Musepack audio: mpc, mp+, mpp:$
+82:audio/x-musepack: Musepack audio: mpc, mp+, mpp:$
+83:audio/x-flac: FLAC Audio: flac:$
+84:audio/flac: FLAC Audio: flac:$
+85:audio/mpeg2: MPEG audio: mp2:$
+86:audio/x-mpeg2: MPEG audio: mp2:$
+87:audio/mpeg3: MPEG audio: mp3:$
+88:audio/x-mpeg3: MPEG audio: mp3:$
+89:audio/mpeg: MPEG audio: mpa,abs,mpega:$
+90:audio/x-mpeg: MPEG audio: mpa,abs,mpega:$
+91:audio/x-mpegurl: MPEG audio: mp3:$
+92:audio/mpegurl: MPEG audio: mp3:$
+93:audio/mp3: MPEG audio: mp3:$
+94:audio/x-mp3: MPEG audio: mp3:$
+95:audio/x-wavpack: WavPack audioaudio/x-scpls: pls: Winamp playlist: wv,wvp:$
+96:application/smil: SMIL playlist: smi, smil:$
+97:application/xspf+xml: XSPF playlist: xspf:$
+98:application/x-xine-plugin: Xine plugin: :$
+/usr/lib/totem/gstreamer/libtotem-gmp-plugin.so:$
+:$
+1239706491000:1:5:$
+The <a href="http://www.gnome.org/projects/totem/">Totem</a> 2.26.1 plugin handles video and audio streams.:$
+Windows Media Player Plug-in 10 (compatible; Totem):$
+13
+0:application/x-mplayer2:AVI video:avi, wma, wmv:$
+1:video/x-ms-asf-plugin:ASF video:asf, wmv:$
+2:video/x-msvideo:AVI video:asf, wmv:$
+3:video/x-ms-asf:ASF video:asf:$
+4:video/x-ms-wmv:Windows Media video:wmv:$
+5:video/x-wmv:Windows Media video:wmv:$
+6:video/x-ms-wvx:Windows Media video:wmv:$
+7:video/x-ms-wm:Windows Media video:wmv:$
+8:video/x-ms-wmp:Windows Media video:wmv:$
+9:application/x-ms-wms:Windows Media video:wms:$
+10:application/x-ms-wmp:Windows Media video:wmp:$
+11:application/asx:Microsoft ASX playlist:asx:$
+12:audio/x-ms-wma:Windows Media audio:wma:$
+/usr/lib/totem/gstreamer/libtotem-cone-plugin.so:$
+:$
+1239706491000:1:5:$
+The <a href="http://www.gnome.org/projects/totem/">Totem</a> 2.26.1 plugin handles video and audio streams.:$
+VLC Multimedia Plugin (compatible Totem 2.26.1):$
+19
+0:application/x-vlc-plugin:VLC Multimedia Plugin::$
+1:application/vlc:VLC Multimedia Plugin::$
+2:video/x-google-vlc-plugin:VLC Multimedia Plugin::$
+3:application/x-ogg:Ogg multimedia file:ogg:$
+4:application/ogg:Ogg multimedia file:ogg:$
+5:audio/ogg:Ogg Audio:oga:$
+6:audio/x-ogg:Ogg Audio:ogg:$
+7:video/ogg:Ogg Video:ogv:$
+8:video/x-ogg:Ogg Video:ogg:$
+9:application/annodex:Annodex exchange format:anx:$
+10:audio/annodex:Annodex Audio:axa:$
+11:video/annodex:Annodex Video:axv:$
+12:video/mpeg:MPEG video:mpg, mpeg, mpe:$
+13:audio/wav:WAV audio:wav:$
+14:audio/x-wav:WAV audio:wav:$
+15:audio/mpeg:MP3 audio:mp3:$
+16:application/x-nsv-vp3-mp3:NullSoft video:nsv:$
+17:video/flv:Flash video:flv:$
+18:application/x-totem-plugin:Totem Multimedia plugin::$
+/usr/lib/totem/gstreamer/libtotem-narrowspace-plugin.so:$
+:$
+1239706492000:1:5:$
+The <a href="http://www.gnome.org/projects/totem/">Totem</a> 2.26.1 plugin handles video and audio streams.:$
+QuickTime Plug-in 7.2.0:$
+5
+0:video/quicktime:QuickTime video:mov:$
+1:video/mp4:MPEG-4 video:mp4:$
+2:image/x-macpaint:MacPaint Bitmap image:pntg:$
+3:image/x-quicktime:Macintosh Quickdraw/PICT drawing:pict, pict1, pict2:$
+4:video/x-m4v:MPEG-4 video:m4v:$
+/usr/lib/totem/gstreamer/libtotem-mully-plugin.so:$
+:$
+1239706492000:1:5:$
+DivX Web Player version 1.4.0.233:$
+DivX® Web Player:$
+1
+0:video/divx:AVI video:divx:$
+/usr/lib/jvm/java-6-sun-1.6.0.14/jre/plugin/i386/ns7/libjavaplugin_oji.so:$
+:$
+1242898055000:1:5:$
+Java(TM) Plug-in 1.6.0_14:$
+Java(TM) Plug-in 1.6.0_14-b08:$
+33
+0:application/x-java-vm:Java&#153 Plug-in::$
+1:application/x-java-applet:Java&#153 Plug-in Applet::$
+2:application/x-java-applet;version=1.1:Java&#153 Plug-in::$
+3:application/x-java-applet;version=1.1.1:Java&#153 Plug-in::$
+4:application/x-java-applet;version=1.1.2:Java&#153 Plug-in::$
+5:application/x-java-applet;version=1.1.3:Java&#153 Plug-in::$
+6:application/x-java-applet;version=1.2:Java&#153 Plug-in::$
+7:application/x-java-applet;version=1.2.1:Java&#153 Plug-in::$
+8:application/x-java-applet;version=1.2.2:Java&#153 Plug-in::$
+9:application/x-java-applet;version=1.3:Java&#153 Plug-in::$
+10:application/x-java-applet;version=1.3.1:Java&#153 Plug-in::$
+11:application/x-java-applet;version=1.4:Java&#153 Plug-in::$
+12:application/x-java-applet;version=1.4.1:Java&#153 Plug-in::$
+13:application/x-java-applet;version=1.4.2:Java&#153 Plug-in::$
+14:application/x-java-applet;version=1.5:Java&#153 Plug-in::$
+15:application/x-java-applet;version=1.6:Java&#153 Plug-in::$
+16:application/x-java-applet;jpi-version=1.6.0_14:Java&#153 Plug-in::$
+17:application/x-java-bean:Java&#153 Plug-in JavaBeans::$
+18:application/x-java-bean;version=1.1:Java&#153 Plug-in::$
+19:application/x-java-bean;version=1.1.1:Java&#153 Plug-in::$
+20:application/x-java-bean;version=1.1.2:Java&#153 Plug-in::$
+21:application/x-java-bean;version=1.1.3:Java&#153 Plug-in::$
+22:application/x-java-bean;version=1.2:Java&#153 Plug-in::$
+23:application/x-java-bean;version=1.2.1:Java&#153 Plug-in::$
+24:application/x-java-bean;version=1.2.2:Java&#153 Plug-in::$
+25:application/x-java-bean;version=1.3:Java&#153 Plug-in::$
+26:application/x-java-bean;version=1.3.1:Java&#153 Plug-in::$
+27:application/x-java-bean;version=1.4:Java&#153 Plug-in::$
+28:application/x-java-bean;version=1.4.1:Java&#153 Plug-in::$
+29:application/x-java-bean;version=1.4.2:Java&#153 Plug-in::$
+30:application/x-java-bean;version=1.5:Java&#153 Plug-in::$
+31:application/x-java-bean;version=1.6:Java&#153 Plug-in::$
+32:application/x-java-bean;jpi-version=1.6.0_14:Java&#153 Plug-in::$
+/usr/lib/xulrunner-addons/plugins/libunixprintplugin.so:$
+:$
+1244022647000:1:5:$
+The demo print plugin for unix.:$
+Demo Print Plugin for unix/linux:$
+1
+0:application/x-print-unix-nsplugin:Demo Print Plugin for Unix/Linux:.pnt:$
+/usr/lib/xulrunner-addons/plugins/libnullplugin.so:$
+:$
+1244022647000:1:5:$
+The default plugin handles plugin data for mimetypes and extensions that are not specified and facilitates downloading of new plugins.:$
+Default Plugin:$
+1
+0:*:All types:.*:$
+/usr/lib/flashplugin-installer/libflashplayer.so:$
+:$
+1245323853000:1:5:$
+Shockwave Flash 10.0 r22:$
+Shockwave Flash:$
+2
+0:application/x-shockwave-flash:Shockwave Flash:swf:$
+1:application/futuresplash:FutureSplash Player:spl:$
