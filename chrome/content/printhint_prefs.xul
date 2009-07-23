@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://printhint/skin/printhint.css" type="text/css"?>
+<?xml-stylesheet href="chrome://global/skin" type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://printhint/locale/options.dtd">
+<dialog buttons="accept, cancel" 
+	id="OptionsDialog"        
+	title="Print Hint Preferences"
+	ondialogaccept="PrintHintUpdatePrefs()"
+	onload="PrintHintInitialisePrefs()"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<script type="application/x-javascript" src="chrome://printhint/content/PrefUtils.js" />
+	<vbox flex="1">
+		<groupbox>
+			<caption label="&PrefQ1;"/>
+			<hbox align="center">
+				<radiogroup id="PrintHint.prefs.preview" orient="vertical">	
+				<radio label="&AnsQ1A;" value="false" />
+				<radio label="&AnsQ1B;" value="true" />
+			</radiogroup>
+			</hbox>    
+		</groupbox>
+	</vbox>  
+</dialog>

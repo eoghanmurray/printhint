@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<window class="dialog"
+	title="Print Hint - About"
+	orient="vertical"
+	autostretch="always"
+	onload="sizeToContent()"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<!-- Original template by Jed Brown -->
+<groupbox align="center" orient="horizontal">
+<vbox>
+  <text value="Print Hint" style="font-weight: bold; font-size: x-large;"/>
+  <text value="ver. 0.33"/>
+  <separator class="thin"/>
+  <text value="Created by:" style="font-weight: bold;"/>
+  <text value="Tony &amp; Eoghan Murray" class="url"
+        onclick="window.open('mailto:murray@ruadesign.org'); window.close();"/>
+  <separator class="thin"/>
+    <text value="Home page:" style="font-weight: bold;"/>
+    <text value="http://www.ruadesign.org/firefox/"
+          class="url"
+	  onclick="window.open('http://www.ruadesign.org/firefox/'); window.close();"/>
+  <separator class="thin"/>
+<text value="This extension helps you to quickly find printer-friendly versions of webpages. " />
+<text value="The extension works best if your browser toolbar includes the print button. " />
+<text value="If not, use View > Toolbars > Customize... to add the button. A green icon "  />
+<text value="indicates the webpage is designed for printing, an orange icon indicates that "  />
+<text value="there is a link to a printer-friendly version of the webpage. Click the icon to "  />
+<text value="either print directly or open the print version. Visit address above for further info." />
+</vbox>
+<spring flex="1"/>
+<image src="chrome://printhint/skin/printer.png"/>
+</groupbox>
+  <hbox>
+  <spacer flex="1"/>
+   <button label="Close" oncommand="window.close();"/>
+  </hbox>
+</window>

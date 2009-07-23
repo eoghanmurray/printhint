@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:creator>Tony Murray</em:creator> 
+    <em:contributor>Eoghan Murray</em:contributor>
+    <em:description>Helps you to quickly find printer-friendly versions of webpages</em:description>
+    <em:homepageURL>http://www.ruadesign.org/firefox/</em:homepageURL>
+    <em:id>{4ca88e02-7bbb-43fe-ae41-5103893fa10c}</em:id>
+    <em:name>Print Hint</em:name>
+  	<em:version>0.33</em:version>
+    <em:targetApplication>
+      <Description>
+	<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+	<em:minVersion>2.0</em:minVersion>
+	<em:maxVersion>3.0.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+    <em:aboutURL>chrome://printhint/content/about.xul</em:aboutURL>
+    <em:optionsURL>chrome://printhint/content/printhint_prefs.xul</em:optionsURL>
+    <em:iconURL>chrome://printhint/skin/printer.png</em:iconURL>
+    <!-- Packages, Skins and Locales that this extension registers - only one language so far!  -->
+    <em:file>
+      <Description about="urn:mozilla:extension:file:printhint.jar">
+	<em:package>content/</em:package>
+	<em:locale>locale/en-US/</em:locale>
+	<em:skin>skin/classic/</em:skin>
+      </Description>
+    </em:file>
+  </Description>
+</RDF>
+

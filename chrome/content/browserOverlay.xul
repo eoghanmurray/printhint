@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://printhint/skin/printhint.css" type="text/css"?> 
+
+<!DOCTYPE overlay [
+	  <!ENTITY % browserDTD SYSTEM "chrome://browser/locale/browser.dtd" >
+	  %browserDTD;
+	  <!ENTITY % globalRegionDTD SYSTEM "chrome://global-region/locale/region.dtd">
+	  %globalRegionDTD;
+	  ]>
+	  
+<overlay 
+   id="printhint" 
+   xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"> 
+  
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="printHintTooltips" src="chrome://printhint/locale/tooltip.properties" />
+  </stringbundleset>
+  
+  <command id="cmd_print" oncommand="printHint.print();"/>
+  
+  <script type="application/x-javascript" 
+	  src="chrome://printhint/content/browserOverlay.js" />
+  
+  
+  <statusbar id="status-bar">
+    <tooltip id="printversion-tooltip">
+      <description id="print-tooltip-value" value="Print Hint extension for detecting print versions" style="margin:0px;" />
+    </tooltip>
+    <statusbarpanel 
+       class="statusbarpanel-iconic" 
+       hidden="true"
+  	id="printable-status" 
+       onclick="printHint.print();"
+       insertafter="statusbar-progresspanel"
+       tooltip="printversion-tooltip"/>
+  </statusbar>
+</overlay>
+ 

@@ -1,0 +1,116 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+
+/* Print button loading, uses an animated gif */
+
+#print-button, 
+#print-button:not([disabled="true"]):hover,
+#print-button[disabled="true"], 
+#print-button:not([disabled="true"]):hover:active{ 
+	 list-style-image: url("chrome://printhint/skin/printload.gif");
+	 -moz-image-region: rect(0px 24px 24px 0px);
+}
+
+/* All other states use the printhint image sheet */
+#print-button.notfound, #print-button.linked, #print-button.stylesheet{ 
+	 list-style-image: url("chrome://printhint/skin/printhint.png") !important; 
+}
+
+
+/* Print stylesheets or print links not found */
+
+#print-button.notfound {
+  -moz-image-region: rect(0px 72px 24px 48px);
+}
+#print-button.notfound:not([disabled="true"]):hover {
+  -moz-image-region: rect(24px 72px 48px 48px);
+}
+#print-button.notfound[disabled="true"] {
+  -moz-image-region: rect(48px 72px 72px 48px);
+}
+#print-button.notfound:not([disabled="true"]):hover:active {
+  -moz-image-region: rect(96px 72px 120px 48px);
+}
+
+
+/* Linked print button*/
+#print-button.linked {
+  -moz-image-region: rect(0px 48px 24px 24px);
+}
+#print-button.linked:not([disabled="true"]):hover {
+  -moz-image-region: rect(24px 48px 48px 24px);
+}
+#print-button.linked[disabled="true"] {
+  -moz-image-region: rect(48px 48px 72px 24px);
+}
+#print-button.linked:not([disabled="true"]):hover:active {
+  -moz-image-region: rect(96px 48px 120px 24px);
+
+}
+
+/* Print Stylesheet Button */
+#print-button.stylesheet {
+  -moz-image-region: rect(0px 24px 24px 0px);
+}
+#print-button.stylesheet:not([disabled="true"]):hover {
+  -moz-image-region: rect(24px 24px 48px 0px);
+}
+#print-button.stylesheet[disabled="true"] {
+  -moz-image-region: rect(48px 24px 72px 0px);
+}
+#print-button.stylesheet:not([disabled="true"]):hover:active {
+  -moz-image-region: rect(96px 24px 120px 0px);
+}
+
+/* Small versions and status bar
+******************************************
+*/
+
+
+toolbar[iconsize="small"] #print-button, statusbarpanel#printable-status{ 
+	 list-style-image: url("chrome://printhint/skin/printhint-small.png") !important; 
+}
+
+/* Print button not found also print loading */
+toolbar[iconsize="small"] #print-button, statusbarpanel#printable-status {
+  -moz-image-region: rect(0px 48px 16px 32px);
+}
+toolbar[iconsize="small"] #print-button:not([disabled="true"]):hover {
+  -moz-image-region: rect(16px 48px 32px 32px);
+}
+toolbar[iconsize="small"] #print-button[disabled="true"] {
+  -moz-image-region: rect(32px 48px 48px 32px);
+}
+toolbar[iconsize="small"] #print-button:not([disabled="true"]):hover:active {
+  -moz-image-region: rect(64px 48px 80px 32px);
+}
+
+
+/* Linked print button*/
+toolbar[iconsize="small"] #print-button.linked, statusbarpanel#printable-status.linked {
+  -moz-image-region: rect(0px 32px 16px 16px);
+}
+toolbar[iconsize="small"] #print-button.linked:not([disabled="true"]):hover {
+  -moz-image-region: rect(16px 32px 32px 16px);
+}
+toolbar[iconsize="small"] #print-button.linked[disabled="true"] {
+  -moz-image-region: rect(32px 32px 48px 16px);
+}
+toolbar[iconsize="small"] #print-button.linked:not([disabled="true"]):hover:active {
+  -moz-image-region: rect(64px 32px 80px 16px);
+}
+
+
+/* Print Stylesheet Button */
+toolbar[iconsize="small"] #print-button.stylesheet, statusbarpanel#printable-status.stylesheet{
+  -moz-image-region: rect(0px 16px 16px 0px);
+}
+toolbar[iconsize="small"] #print-button.stylesheet:not([disabled="true"]):hover {
+  -moz-image-region: rect(16px 16px 32px 0px);
+}
+toolbar[iconsize="small"] #print-button.stylesheet[disabled="true"] {
+  -moz-image-region: rect(32px 16px 48px 0px);
+}
+toolbar[iconsize="small"] #print-button.stylesheet:not([disabled="true"]):hover:active {
+  -moz-image-region: rect(64px 16px 80px 0px);
+}
