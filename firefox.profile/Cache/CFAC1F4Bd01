@@ -1,243 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?><addons>
-<addon>
-        <name>AutoPager</name>
-    <type id='1'>Extension</type>
-    <guid>autopager@mozilla.org</guid>
-    <version>0.5.2.2</version>
-    <status id='4'>Public</status>
-    <authors>
-          <author>Wind Li</author>
-    </authors>      
-    <summary>AutoPager automatically loads next pages when you reach the end of a page. It works on a ton of sites,Google,Yahoo..It works well with most other add-ons adblock plus, WOT and most of the greasemonkey scripts.Add AutoPager Refinements since 0.5.2.2</summary>
-    <description>The AutoPager Firefox extension automatically loads the next page of a site inline when you reach the end of the current page for infinite scrolling of content. It includes a adblock similar features to allow you filter out the ads from the contents in the loaded page contents.It works well with most of the greasemonkey scripts.By default AutoPager works with a ton of sites, including Lifehacker, the New York Times, Digg, and, of course, Google.  If you want to add your own custom autopaging to unsupported sites, the site wizard feature makes it easy (first pick the Next link, then pick only the content you want loaded. The site workshop provide more features like auto discovery the links and content.It&#39;s configuration is base on XPath. You can find there is a built in function to create a XPath by click some links on the pages. This extension will import online configuration from this sources,these configurations includes support for some widely used sites and some general support for forums. You can also share your site rules by click public button in the setting dialog.You can find XPath tutorials at http://www.w3schools.com/xpath/ and http://www.zvon.org/xxl/XPathTutorial/General/examples.html. You can always get the stable version here and the newer develop version at: http://www.teesoft.info/content/view/68/1/You can find our tutorials at http://www.teesoft.info/content/view/91/1/And some tips for creating AutoPager rules for new sites:http://www.teesoft.info/content/view/87/1/Auto Pager Refinements add links to the suggested keywords provided by surfcanyon. You can turn it of in Tools-&gt;AutoPager-&gt;Options if that is not useful for you.</description>
-    <icon>https://addons.mozilla.org/en-US/firefox/images/addon_icon/4925/1246537879</icon>
-    <compatible_applications>
-        <application>
-            <name>Firefox</name>
-            <application_id>1</application_id>
-            <min_version>1.5</min_version>
-            <max_version>3.6a1pre</max_version>
-            <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
-             </application>
-             <application>
-            <name>SeaMonkey</name>
-            <application_id>59</application_id>
-            <min_version>1.0</min_version>
-            <max_version>2.0b1</max_version>
-            <appID>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</appID>
-             </application>
-             <application>
-            <name>Fennec</name>
-            <application_id>60</application_id>
-            <min_version>1.0a1</min_version>
-            <max_version>1.0.*</max_version>
-            <appID>{a23983c0-fd0e-11dc-95ff-0800200c9a66}</appID>
-             </application>
-         </compatible_applications>      
-        <all_compatible_os>
-            <os>ALL</os>        </all_compatible_os>
-        <eula></eula>
-    <thumbnail>https://addons.mozilla.org/en-US/firefox/images/t/13792/1178381976</thumbnail>
-    <rating>5</rating>
-    <learnmore>https://addons.mozilla.org/addon/4925?src=api</learnmore>
-             <install hash='sha256:1f901de94f5a4a4e71ac83ff05cd21ae96e7e45a1cac5fbf70a6d28e2d9aaf19'
-              os='ALL'>https://addons.mozilla.org/downloads/file/55957/autopager-0.5.2.2-fx+mz+sm+fn.xpi</install>          
-         </addon>
-<addon>
-        <name>Minimap Sidebar</name>
-    <type id='1'>Extension</type>
-    <guid>{398e77b8-2304-11dc-8314-0800200c9a66}</guid>
-    <version>0.3.13</version>
-    <status id='4'>Public</status>
-    <authors>
-          <author>tones</author>
-    </authors>      
-    <summary>The Minimap Addon gives you a suite of built-in maps and mapping tools for your web browser. Drag and Drop addresses or address links you find on web pages to view their location in the Map Sidebar, or by manually adding locations. Preview addresses from within any webpage using the Map Panel and get larger scale maps with the Map Tab. Import/Export KML, GPX, minimap xml file, CSV (export only). View traffic Info, drag and drop KML files, local search, Google, Yahoo! and Live Local directions, view in Google Earth, Tagzania, Platial, Geourl and many more. Address/Location points are stored locally for later use. Geodiscovery reveals geoURLís or geotags as you browse, with microformat support available in Firefox 3 (Adr and Geo).</summary>
-    <description>This extension comes with three mapping components, the main and most powerful one being the Minimap sidebar. In this sidebar you can drag and drop addresses or address links  you find on web pages and they will be automatically located, and added to your saved address list. The extension also comes with a quick loading Preview Panel to easily look at an address or directions without having to pre-save in your sidebar address list. The third mapping element is a main browser Map Tab for viewing a larger map. All three elements are accessed from the Toolbar button (customize your toolbar and drop it in), or by highlighting an address, and selecting &#39;Map: Locate Address...&#39; in the right click context menu, with the hotkey of CTRL+SHIFT+M opening up the Preview Panel, CTRL+ALT+M opening the sidebar. A few of the extension features available:* Map an Address: Drag and drop addresses or links (the view in google/yahoo type) to show on map, which is added to the address list. Manually add an address. Build up a list of locally stored addresses.* Map a Coordinate: Manually add a coordinate which is added to the address list.* Preview addresses (highlight text or click address link, then select Map Preview from right-click menu).* geoDiscovery: The extension will automatically discover geoURL&#39;, in-line geotags and microformats and populate the geoDiscovery list as you browse. Alerts you to the discovery via a status bar image.* Map Types: Google street/satelitte/3D map, OpenStreetMap Mapnik/OSMarender* KML File: Drag and drop hosted kml file links to show on map.* Import/Export KML, GPX, minimap xml file, CSV (export only). Import/Export all from Tools toolbar button, export selection from right click -&gt; share location menu.* The Crosshair and Lat/Lon box: Map has a centre cross hair which displays the latitude and longitude in the top right hand corner of the map.* Navigation: Map, Satellite, Hybrid, Terrain and 3D Google Earth views. Pan and zoom.* Address list: Build up a list of locally stored addresses and kml files.* Directions: Get Google / Yahoo! / Microsoft directions to/from an address list entry and/or set a locally stored Home Address to get directions to/from an address list entry.* Fire Eagle: access and update your location.* Tagzania.com: View tagzania.com/near and post address list entry to tagzania.* Google Earth: View an address list entry in Google Earth.* View locations in Loc.alize.us, Flickr, Panaramio, Geody, Geonames and many more..* Access and update Fire Eagle location* Googlesightseeing.com: Drag and drop googlesightseeing links to view the image of interest.* Localize: Change Google geocoder source to help improve address results, as well as change the maps domain for directions.* Geohash decoding/encoding.* Miscellaneous: Toolbar launcher available.Operator Users! I have written an Operator user script to compliment this extension. This is available from the minimap website http://minimap.spatialviews.comIf you like this extension please blog about it and/or rate it here on Mozilla.KNOWN ISSUES: It is highly recommended you take a look at the known issues http://www.minimap.spatialviews.com</description>
-    <icon>https://addons.mozilla.org/en-US/firefox/images/addon_icon/5203/1247831677</icon>
-    <compatible_applications>
-        <application>
-            <name>Firefox</name>
-            <application_id>1</application_id>
-            <min_version>2.0</min_version>
-            <max_version>3.5.*</max_version>
-            <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
-             </application>
-         </compatible_applications>      
-        <all_compatible_os>
-            <os>ALL</os><os>ALL</os>        </all_compatible_os>
-        <eula></eula>
-    <thumbnail>https://addons.mozilla.org/en-US/firefox/images/t/14801/1183494378</thumbnail>
-    <rating>5</rating>
-    <learnmore>https://addons.mozilla.org/addon/5203?src=api</learnmore>
-             <install hash='sha256:48eca321e658181496ea47e28189a4f6a09b1b2453c4e4065ccda41966b1cc9e'
-              os='ALL'>https://addons.mozilla.org/downloads/file/58887/minimap_addon-0.3.13-fx.xpi</install>          
-         </addon>
-<addon>
-        <name>WebMail Notifier</name>
-    <type id='1'>Extension</type>
-    <guid>{37fa1426-b82d-11db-8314-0800200c9a66}</guid>
-    <version>1.3</version>
-    <status id='4'>Public</status>
-    <authors>
-          <author>Byungwook Kang</author>
-    </authors>      
-    <summary>WebMail Notifier checks your webmail accounts and notifies the number of unread emails...Supports : gmail, yahoo, hotmail, daum, naver, empas, nate and more </summary>
-    <description>WebMail Notifier checks your webmail accounts and notifies the number of unread emails.You can use multiple accounts in a same host.Currently supports - mail.google.com(Gmail &amp; Google Apps) - mail.yahoo.com (yahoo.com, ymail.com, rocketmail.com) - mail.live.com(hotmail.com, msn.com, live.com) - www.daum.net(hanmail) - www.naver.com - www.empas.com - www.nate.comBelow sites are supported by user script. - mail.qq.com - www.fastmail.fm - www.gmx.net - mail.lycos.com - www.orkut.com - freemail.web.de - poczta.fm(poczta.interia.pl)If you want other webmail provider, you can make your own script.You can find user script examples here.http://tobwithu.tistory.com/category/WebMailNotifier</description>
-    <icon>https://addons.mozilla.org/en-US/firefox/images/addon_icon/4490/1246448494</icon>
-    <compatible_applications>
-        <application>
-            <name>Firefox</name>
-            <application_id>1</application_id>
-            <min_version>1.5</min_version>
-            <max_version>3.6a1pre</max_version>
-            <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
-             </application>
-         </compatible_applications>      
-        <all_compatible_os>
-            <os>ALL</os><os>ALL</os><os>ALL</os><os>ALL</os><os>ALL</os><os>ALL</os><os>ALL</os><os>ALL</os>        </all_compatible_os>
-        <eula></eula>
-    <thumbnail>https://addons.mozilla.org/en-US/firefox/images/t/15233/1184587092</thumbnail>
-    <rating>5</rating>
-    <learnmore>https://addons.mozilla.org/addon/4490?src=api</learnmore>
-             <install hash='sha256:afdc2e90b7d509970ab98f97d613d9d8bd6cf89ee8909e9760819b530b996b5f'
-              os='ALL'>https://addons.mozilla.org/downloads/file/58375/webmail_notifier-1.3-fx.xpi</install>          
-         </addon>
-<addon>
-        <name>Xmarks (formerly Foxmarks)</name>
-    <type id='1'>Extension</type>
-    <guid>foxmarks@kei.com</guid>
-    <version>3.1.0</version>
-    <status id='4'>Public</status>
-    <authors>
-          <author>Xmarks Inc.</author>
-    </authors>      
-    <summary>Xmarks is the #1 bookmarking add-on. Install it on all your computers to keep your bookmarks and (optionally) passwords backed up and synchronized. Xmarks also helps you uncover the best of the web based on what millions of people are bookmarking.</summary>
-    <description>It takes only a moment to get up and running with Xmarks. After you install the add-on, click on the notification to set up Xmarks and start backing up and synchronizing your bookmarks. Install Xmarks on each computer you use, and it seamlessly integrates with your web browser and keeps your bookmarks safely backed up and in sync.Xmarks will sync across browsers too. Today we support Firefox, Internet Explorer, and Safari (Mac OS). Please visit our website at xmarks.com for details.Secure Password Sync is an optional Xmarks feature. If you&#39;d like to learn more about how it works, visit: http://www.xmarks.com/about/features/secure_password_syncXmarks provides seamless bookmark synchronization between your computers and browsers via our synchronization server.  Your bookmark (and optionally password) data is securely stored and backed up on our servers.Our discovery services help you assess the quality of websites you visit, as well as find similar sites with a single click. For example, when you search on Google or other search engines, we compare your search results against data on our servers in order to recommend sites that have been frequently bookmarked.  Our discovery services are powered by analyzing anonymously and in aggregate the millions of bookmarks on our servers--in this way we are leveraging the wisdom of crowds to powerfully enhance your searching and browsing experience.In order to continuously improve the utility of Xmarks, we may collect certain data such as which features are enabled or disabled, and how our features are being used.  Details may be found in our privacy policy:  http://www.xmarks.com/about/privacyTo learn about many more features of Xmarks, visit our feature pages: http://www.xmarks.com/about/featuresGet the latest news about Xmarks at our blog: http://blog.xmarks.com/Xmarks was formerly known as Foxmarks.</description>
-    <icon>https://addons.mozilla.org/en-US/firefox/images/addon_icon/2410/1248196284</icon>
-    <compatible_applications>
-        <application>
-            <name>Firefox</name>
-            <application_id>1</application_id>
-            <min_version>3.0</min_version>
-            <max_version>3.5.*</max_version>
-            <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
-             </application>
-         </compatible_applications>      
-        <all_compatible_os>
-            <os>ALL</os><os>ALL</os><os>ALL</os><os>ALL</os><os>ALL</os>        </all_compatible_os>
-        <eula></eula>
-    <thumbnail>https://addons.mozilla.org/en-US/firefox/images/t/19473/1239408898</thumbnail>
-    <rating>4</rating>
-    <learnmore>https://addons.mozilla.org/addon/2410?src=api</learnmore>
-             <install hash='sha256:b5c65c556e5f9b4f00172906cd9d6d4482992a1e3f1b597c95476dc63b581d46'
-              os='ALL'>https://addons.mozilla.org/downloads/file/52383/xmarks-3.1.0-fx.xpi</install>          
-         </addon>
-<addon>
-        <name>GooglePreview</name>
-    <type id='1'>Extension</type>
-    <guid>{EF522540-89F5-46b9-B6FE-1829E2B572C6}</guid>
-    <version>3.22</version>
-    <status id='4'>Public</status>
-    <authors>
-          <author>Edward Ackroyd</author>
-    </authors>      
-    <summary>Inserts preview images (thumbnails) and popularity ranks of web sites into the Google and Yahoo search results pages. </summary>
-    <description>Inserts preview images (thumbnails) and popularity ranks of web sites into the Google and Yahoo search results pages. The GooglePreview thumbnail system currently consists of 9 dedicated servers and generates over 15 TB of traffic per month. For a very few search terms, this version will insert sponsored links into the google.de and google.com search results (labeled as &#39;GooglePreview Sponsored Links&#39;). If you don&#39;t like the sponsored links, you can disable them in the GooglePreview options dialog. </description>
-    <icon>https://addons.mozilla.org/img/default_icon.png</icon>
-    <compatible_applications>
-        <application>
-            <name>Firefox</name>
-            <application_id>1</application_id>
-            <min_version>1.5</min_version>
-            <max_version>3.6a1pre</max_version>
-            <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
-             </application>
-         </compatible_applications>      
-        <all_compatible_os>
-            <os>ALL</os><os>ALL</os><os>ALL</os><os>ALL</os><os>ALL</os><os>ALL</os>        </all_compatible_os>
-        <eula></eula>
-    <thumbnail>https://addons.mozilla.org/en-US/firefox/images/t/215/943948800</thumbnail>
-    <rating>5</rating>
-    <learnmore>https://addons.mozilla.org/addon/189?src=api</learnmore>
-             <install hash='sha256:869598a9c143cf6d47afbac076e5024a193d7a435355602be8e187e5313bd67d'
-              os='ALL'>https://addons.mozilla.org/downloads/file/54546/googlepreview-3.22-fx.xpi</install>          
-         </addon>
-<addon>
-        <name>Glue</name>
-    <type id='1'>Extension</type>
-    <guid>{D2A6A719-7CBC-4594-85FD-C36AD881424F}</guid>
-    <version>4.2.19</version>
-    <status id='4'>Public</status>
-    <authors>
-          <author>AdaptiveBlue </author>
-    </authors>      
-    <summary>Glue helps you find books, music, movies and more through your friends as you browse popular sites. When you visit sites like Amazon, IMDB, and Wikipeida, Glue appears to show you friends who looked at the same things and tells you what they thought!</summary>
-    <description>Get Glue! Find your next favorite book, movie and music!Glue tells you what your friends think of the things you visit on the web. Find recommended books, music, movies and more. Glue learns from you as you browse popular sites.Here is why you will like Glue:- See what your friends thought of the book, movie or music album you&#39;re looking at- Discuss the things you like with your friends regardless of which sites your friends visit- Easily save your favorite things from hundreds of popular sites- Get recommendations based on what your friends liked around the web- 1-Click sharing on Twitter/Tumblr/Friend Feed and email </description>
-    <icon>https://addons.mozilla.org/en-US/firefox/images/addon_icon/3481/1246544290</icon>
-    <compatible_applications>
-        <application>
-            <name>Firefox</name>
-            <application_id>1</application_id>
-            <min_version>1.4</min_version>
-            <max_version>3.5.*</max_version>
-            <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
-             </application>
-         </compatible_applications>      
-        <all_compatible_os>
-            <os>ALL</os><os>ALL</os><os>ALL</os><os>ALL</os><os>ALL</os><os>ALL</os><os>ALL</os>        </all_compatible_os>
-        <eula></eula>
-    <thumbnail>https://addons.mozilla.org/en-US/firefox/images/t/30887/1245986734</thumbnail>
-    <rating>5</rating>
-    <learnmore>https://addons.mozilla.org/addon/3481?src=api</learnmore>
-             <install hash='sha256:27cd37f7cc860c2c2df4264e93c6463d481cc0a6d8752155cc4bab917780609c'
-              os='ALL'>https://addons.mozilla.org/downloads/file/57363/glue-4.2.19-fx.xpi</install>          
-         </addon>
-<addon>
-        <name>DownThemAll!</name>
-    <type id='1'>Extension</type>
-    <guid>{DDC359D1-844A-42a7-9AA1-88A850A938A8}</guid>
-    <version>1.1.4</version>
-    <status id='4'>Public</status>
-    <authors>
-          <author>Federico Parodi</author>
-          <author>Nils Maier</author>
-          <author>Stefano Verna</author>
-    </authors>      
-    <summary>The first and only download manager/accelerator built inside Firefox!</summary>
-    <description>DownThemAll is all you can desire from a download manager: it features an advanced accelerator that increases speed up to 400% and it allows you to pause and resume downloads at any time.DownThemAll is fast, reliable and easy-to-use! It lets you download all the links or images contained in a webpage and much more: you can refine your downloads by fully customizable criteria to get only what you really want!DownThemAll is absolutely freeware and open-source. No Adware, no Spyware.For more information,http://www.downthemall.net/howto/features/</description>
-    <icon>https://addons.mozilla.org/en-US/firefox/images/addon_icon/201/1248121465</icon>
-    <compatible_applications>
-        <application>
-            <name>Firefox</name>
-            <application_id>1</application_id>
-            <min_version>3.0</min_version>
-            <max_version>3.5.*</max_version>
-            <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
-             </application>
-             <application>
-            <name>Thunderbird</name>
-            <application_id>18</application_id>
-            <min_version>3.0a1pre</min_version>
-            <max_version>3.0b3pre</max_version>
-            <appID>{3550f703-e582-4d05-9a08-453d09bdfdc6}</appID>
-             </application>
-             <application>
-            <name>SeaMonkey</name>
-            <application_id>59</application_id>
-            <min_version>2.0a</min_version>
-            <max_version>2.0b1</max_version>
-            <appID>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</appID>
-             </application>
-         </compatible_applications>      
-        <all_compatible_os>
-            <os>ALL</os><os>ALL</os><os>ALL</os><os>ALL</os><os>ALL</os><os>ALL</os><os>ALL</os><os>ALL</os><os>ALL</os><os>ALL</os>        </all_compatible_os>
-        <eula></eula>
-    <thumbnail>https://addons.mozilla.org/en-US/firefox/images/t/18836/1204274475</thumbnail>
-    <rating>5</rating>
-    <learnmore>https://addons.mozilla.org/addon/201?src=api</learnmore>
-             <install hash='sha256:176ee65f59fa34896aa65326d734d0292ff92c94962b2f65eda3163b1b7174f3'
-              os='ALL'>https://addons.mozilla.org/downloads/file/56783/downthemall!-1.1.4-fx+tb+sm.xpi</install>          
-         </addon>
-</addons>
- 
