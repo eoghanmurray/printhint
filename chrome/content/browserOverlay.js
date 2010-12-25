@@ -33,15 +33,17 @@ var printHint = {
 
     tooltips: null,
     init: function() {
+	var gBrowser = document.getElementById("content");
 	// This will link up to add the printHint.processNewURL event handler
-	getBrowser().addProgressListener(locationListener, Components.interfaces.nsIWebProgress.NOTIFY_STATE_DOCUMENT);
+	gBrowser.addProgressListener(locationListener, Components.interfaces.nsIWebProgress.NOTIFY_STATE_DOCUMENT);
 	// Check all documents when they have loaded
-	getBrowser().addEventListener("load", printHint.checkLoadedDocument, true);
+	gBrowser.addEventListener("load", printHint.checkLoadedDocument, true);
 	// Load the tooltip properties file
 	this.tooltips = document.getElementById("printHintTooltips");
     },
 
     uninit: function() {
+	var gBrowser = document.getElementById("content");
 	gBrowser.removeProgressListener(locationListener);
     },
 
@@ -271,15 +273,6 @@ var printHint = {
 	}
     }
 };
-
-var gBrowser = null;
-// Remove later - var NoPrintText = &printhint.NoPrintPopupText;
-function getBrowser() {
-	if (!gBrowser) {
-		gBrowser = document.getElementById("content");
-	}
-	return gBrowser;
-}
 
 window.addEventListener("load", function() { printHint.init()}, false);
 window.addEventListener("unload", function() {printHint.uninit()}, false);
